@@ -1,0 +1,113 @@
+/*Seccion para importar archivos externos*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*Estilo general de la pagina template.html*/
+*{
+    font-family: 'Rubik', sans-serif; 
+
+}
+
+/*Estilo para la parte del header*/
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #c0fdff;
+    width: 200%;
+    max-width: 100%;
+}
+
+.imagen-header{
+    width: 70px;
+}
+.h1-estilo{
+   justify-content: center;
+   font-size: 35px;
+   
+}
+
+/*Estilo para la parte de la navegacion*/
+nav{
+    display: flex;
+    justify-content: center;
+  
+  
+}
+nav ul,li,a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+
+nav li{
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav a{
+    color: black;
+    
+}
+
+ nav a:hover{
+    color: #bc8a5f;
+    padding: 1em;
+    transition: 1s ease;
+}
+
+
+/*Estilo para el body*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+   
+    
+}
+.container-dos{
+    display: flex;
+    justify-content: end;
+    background-color: #e9f5db;
+    margin: auto;
+    width: 900px;
+    height: 600px;
+    padding: 100px;
+    max-width: 100%;
+}
+
+aside{
+    padding-left: 2em;
+}
+
+aside a{
+    color: #bc8a5f;
+    width: 20px;
+}
+
+ aside a:hover{
+  color: #ffcb77;
+ }
+ 
+.titulo{
+    font-size:18px;
+    text-transform: uppercase;
+    margin-bottom: 2.5em;
+}
+.subtitulo{
+    font-size: 15px;
+    font-style: italic;
+}
+.parafo{
+    font-size: 13px;
+}
+footer{
+    text-align: center;
+    margin-top: auto;
+    background-color:#c0fdff;
+    padding: 1.3em;    
+    max-width: 100%;
+    font-size: 20px;
+}
+

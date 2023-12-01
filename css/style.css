@@ -1,0 +1,113 @@
+/*Seccion para importar archivos externos */
+/*Importacion del estilo para el template*/
+@import url(../css/template.css);
+
+
+/****************  Estilo para la pagina index.html*****************************/
+
+main{
+    position: relative;
+ 
+}
+
+.imagen-index{
+    position: absolute;
+    right: 27em;
+    width: 250px;
+}
+ 
+.parafo-index{
+ padding-right: em;
+ font-size: 1em;
+   
+}
+
+.subtitulo-index{
+    padding-top: 4em;
+}
+
+button a{
+    color: black;
+}
+button:hover{
+    background-color: #ffcb77;
+    
+}
+.button-formulario{
+    border: none;
+    background-color: #bc8a5f;
+    box-shadow: 3px 3px gray;
+    padding: .8em;
+}
+/****************  Estilo para la pagina formulario.html*****************************/
+
+ form{
+   padding-right: 6em;
+ }
+label,input{
+    display: block;
+    
+}
+label{
+    font-style: italic;
+    padding-top: .6em;
+    padding-bottom: .3em;
+    font-size:20px;
+}
+input{
+    
+    width: 25em;
+    padding: 5px;
+    max-width: 100%;
+    
+}
+
+textarea{
+   width: 24em;
+    padding: 1em;
+}
+.submit-button{
+    text-align: center;
+    margin-top: 2em;
+    margin-left: .4em;
+    padding: .5em;
+    border: none;
+    background-color: #bc8a5f;
+    box-shadow: 3px 3px gray;
+}
+
+
+/*************estilo para las paginas lectura.html,lectura-anterio.html*****************/
+ 
+article{
+    padding-bottom: 5em;
+}
+
+
+h1.tituloa{
+    font-size: 25px;
+    padding-right: 12em;
+}
+
+ img.imagen{
+    float: left;
+    width: 150px;
+    margin-right: 1.5em;
+}
+article button{
+    padding: .4em;
+    border: none;
+    background-color: #bc8a5f;
+    box-shadow: 3px 3px gray;
+}
+article.parafo-articulo{
+    font-size: 3em;
+}
+
+/****************estilo para la pagina reseña.html**********************************/
+
+.imagen-reseña{
+    float: left;
+    margin-right:1em;
+    width: 140px;
+}
